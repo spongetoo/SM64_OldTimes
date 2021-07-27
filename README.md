@@ -1,5 +1,5 @@
 # SM64_E3_1996
--- please don't share this to others --
+-- this repo is incomplete --
 
 started on: July 25, 2021
 
