@@ -1,0 +1,13 @@
+extern Lights1 penguin_Shape_081_f3d_lights;
+extern Lights1 penguin_Shape_079_f3d_lights;
+extern Lights1 penguin_Shape_078_f3d_lights;
+extern Vtx penguin_Shape_IndexedFaceSet_004_mesh_vtx_0[32];
+extern Gfx penguin_Shape_IndexedFaceSet_004_mesh_tri_0[];
+extern Vtx penguin_Shape_IndexedFaceSet_004_mesh_vtx_1[6];
+extern Gfx penguin_Shape_IndexedFaceSet_004_mesh_tri_1[];
+extern Vtx penguin_Shape_IndexedFaceSet_004_mesh_vtx_2[7];
+extern Gfx penguin_Shape_IndexedFaceSet_004_mesh_tri_2[];
+extern Gfx mat_penguin_Shape_081_f3d[];
+extern Gfx mat_penguin_Shape_079_f3d[];
+extern Gfx mat_penguin_Shape_078_f3d[];
+extern Gfx penguin_Shape_IndexedFaceSet_004_mesh[];
