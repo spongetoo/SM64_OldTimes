@@ -1,4 +1,4 @@
-# SM64_E3_1996
+# Super Mario 64 E3 1996 romhack
 -- this repo is incomplete --
 
 started on: July 25, 2021
