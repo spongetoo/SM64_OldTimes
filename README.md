@@ -1,5 +1,5 @@
 # Super Mario 64 E3 1996 romhack
--- this repo is incomplete --
+-- please don't take anything without credit --
 
 started on: July 25, 2021
 
