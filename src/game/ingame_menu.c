@@ -928,8 +928,8 @@ void reset_dialog_render_state(void) {
 }
 
 #if defined(VERSION_JP) || defined(VERSION_SH)
-#define X_VAL1 -5.0f
-#define Y_VAL1 2.0
+#define X_VAL1 -1.0f
+#define Y_VAL1 0.0
 #define Y_VAL2 4
 #else
 #define X_VAL1 -7.0f
