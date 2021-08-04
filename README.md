@@ -1,4 +1,6 @@
-# Super Mario 64 E3 1996 romhack
+# Super Mario 64 OldTimes project
+an e3-styled hack or smth
+
 -- please don't take anything without credit --
 
 started on: July 25, 2021
