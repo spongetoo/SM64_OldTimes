@@ -6,7 +6,7 @@ an e3-styled hack or smth
 started on: July 25, 2021
 
 credit:
-- me for creating hud
+- me for creating hud and stuff
 - penguin for bob painting
 - dudaw for trees
 
