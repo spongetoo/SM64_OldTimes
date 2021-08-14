@@ -5,7 +5,10 @@ an e3-styled hack or smth
 
 started on: July 25, 2021
 
-assets by: me & PenguinMania
+credit:
+- me for creating hud
+- penguin for bob painting
+- dudaw for trees
 
 btw it's just a romhack made for the ARG channel, in which it's on the BitView page, and
 you'll need the clean, undumped japanese Super Mario 64 rom to do this.
