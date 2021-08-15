@@ -473,7 +473,7 @@ s32 obj_begin_race(s32 noTimer) {
         cur_obj_play_sound_2(SOUND_GENERAL_RACE_GUN_SHOT);
 
         if (!noTimer) {
-            play_music(SEQ_PLAYER_LEVEL, SEQUENCE_ARGS(4, SEQ_LEVEL_SLIDE), 0);
+            // play_music(SEQ_PLAYER_LEVEL, SEQUENCE_ARGS(4, SEQ_LEVEL_SLIDE), 0);
 
             level_control_timer(TIMER_CONTROL_SHOW);
             level_control_timer(TIMER_CONTROL_START);
@@ -709,7 +709,7 @@ static void koopa_the_quick_act_after_race(void) {
 
     if (o->parentObj->oKoopaRaceEndpointDialog == 0) {
         if (cur_obj_can_mario_activate_textbox_2(400.0f, 400.0f)) {
-            stop_background_music(SEQUENCE_ARGS(4, SEQ_LEVEL_SLIDE));
+            // stop_background_music(SEQUENCE_ARGS(4, SEQ_LEVEL_SLIDE));
 
             // Determine which text to display
 

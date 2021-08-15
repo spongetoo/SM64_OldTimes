@@ -152,7 +152,7 @@ const LevelScript level_ttm_entry[] = {
         TERRAIN(/*terrainData*/ ttm_seg7_area_2_collision),
         MACRO_OBJECTS(/*objList*/ ttm_seg7_area_2_macro_objs),
         INSTANT_WARP(/*index*/ 2, /*destArea*/ 3, /*displace*/ 10240, 7168, 10240),
-        SET_BACKGROUND_MUSIC(/*settingsPreset*/ 0x0001, /*seq*/ SEQ_LEVEL_SLIDE),
+        SET_BACKGROUND_MUSIC(/*settingsPreset*/ 0x0001, /*seq*/ SEQ_LEVEL_GRASS),
         TERRAIN_TYPE(/*terrainType*/ TERRAIN_SLIDE),
     END_AREA(),
 

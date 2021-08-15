@@ -445,9 +445,9 @@ void render_hud(void) {
         create_dl_ortho_matrix();
 #endif
 
-        if (gCurrentArea != NULL && gCurrentArea->camera->mode == CAMERA_MODE_INSIDE_CANNON) {
-            render_hud_cannon_reticle();
-        }
+        // if (gCurrentArea != NULL && gCurrentArea->camera->mode == CAMERA_MODE_INSIDE_CANNON) {
+            // render_hud_cannon_reticle();
+        // }
 
         if (hudDisplayFlags & HUD_DISPLAY_FLAG_LIVES) {
             render_hud_mario_lives();
