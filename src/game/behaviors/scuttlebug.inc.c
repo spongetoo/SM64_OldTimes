@@ -5,7 +5,7 @@ struct ObjectHitbox sScuttlebugHitbox = {
     /* downOffset: */ 0,
     /* damageOrCoinValue: */ 1,
     /* health: */ 1,
-    /* numLootCoins: */ 3,
+    /* numLootCoins: */ 1,
     /* radius: */ 130,
     /* height: */ 70,
     /* hurtboxRadius: */ 90,

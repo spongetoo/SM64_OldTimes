@@ -8,7 +8,7 @@ struct ObjectHitbox sSkeeterHitbox = {
     /* downOffset:        */ 20,
     /* damageOrCoinValue: */ 2,
     /* health:            */ 0,
-    /* numLootCoins:      */ 0,
+    /* numLootCoins:      */ 3,
     /* radius:            */ 180,
     /* height:            */ 100,
     /* hurtboxRadius:     */ 150,
