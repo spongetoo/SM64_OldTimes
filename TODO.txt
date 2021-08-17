@@ -1,0 +1,61 @@
+Overall: 74% complete
+
+===============================================================
+CASTLE GROUNDS & INSIDE CASTLE
+===============================================================
+- Change the cutscene of Mario exiting a pipe to match the right one as shown in pre-release SM64 commercial.
+- Add the early steps in the main inside castle.
+- Remove every Toads.
+- Make the basement smaller.
+- Change the pendulum part to the blue one.
+
+===============================================================
+BOB-OMB BATTLEFIELD
+===============================================================
+- Remove the fence in that Chain Chomp part.
+- Instead of making 2 boulders/balls appear, make it 3 instead.
+
+===============================================================
+WHOMP'S FORTRESS
+===============================================================
+- Remove the arrows.
+
+===============================================================
+JOLLY ROGER BAY/DIRE, DIRE DOCKS
+===============================================================
+- Music: Extend the 26th instrument to 3 seconds and remove the distortion.
+- For Dire, Dire Docks, remove the coin rings in the start.
+
+===============================================================
+BIG BOO'S HAUNT
+===============================================================
+- Change the boo position, the one from the falling foor section.
+
+===============================================================
+LETHAL LAVA LAND
+===============================================================
+- Add only 1 coin on the 2 bullies just before the big bully battle.
+
+===============================================================
+SHIFTING SAND LAND
+===============================================================
+- Add the coin rings in the inside pyramid.
+- Change the amps that guide the elevator platform to the rocks that Monty Moles throw.
+(possible in Hazy Maze Cave?)
+
+===============================================================
+TALL, TALL MOUNTAIN
+===============================================================
+- Remove the waterfall sound.
+
+===============================================================
+BOWSER IN THE SKY
+===============================================================
+- Fly Guy was seen in the 1996 beta.
+
+===============================================================
+ENEMIES
+===============================================================
+- Scuttlebug: Remove the fangs.
+
+Overall: 74% complete
