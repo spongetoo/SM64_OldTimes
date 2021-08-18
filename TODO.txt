@@ -1,6 +1,16 @@
 Overall: 80% complete
 
 ===============================================================
+MARIO
+===============================================================
+- Change the "yeah" sound to the correct pitch.
+
+===============================================================
+INTRO & TITLE
+===============================================================
+- Import the title screen as seen on the N64 1996 Press Conference B-Roll.
+
+===============================================================
 CASTLE GROUNDS & INSIDE CASTLE
 ===============================================================
 - Change the cutscene of Mario exiting a pipe to match the right one as shown in pre-release SM64 commercial.
