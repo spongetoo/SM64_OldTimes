@@ -1,11 +1,10 @@
-Overall: 74% complete
+Overall: 77% complete
 
 ===============================================================
 CASTLE GROUNDS & INSIDE CASTLE
 ===============================================================
 - Change the cutscene of Mario exiting a pipe to match the right one as shown in pre-release SM64 commercial.
 - Add the early steps in the main inside castle.
-- Remove every Toads.
 - Make the basement smaller.
 - Change the pendulum part to the blue one.
 
@@ -44,11 +43,6 @@ SHIFTING SAND LAND
 (possible in Hazy Maze Cave?)
 
 ===============================================================
-TALL, TALL MOUNTAIN
-===============================================================
-- Remove the waterfall sound.
-
-===============================================================
 BOWSER IN THE SKY
 ===============================================================
 - Fly Guy was seen in the 1996 beta.
@@ -58,4 +52,4 @@ ENEMIES
 ===============================================================
 - Scuttlebug: Remove the fangs.
 
-Overall: 74% complete
+Overall: 77% complete
