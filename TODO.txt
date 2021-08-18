@@ -13,6 +13,7 @@ BOB-OMB BATTLEFIELD
 ===============================================================
 - Remove the fence in that Chain Chomp part.
 - Instead of making 2 boulders/balls appear, make it 3 instead.
+- Also, place the coin ring with Bob-omb near the boulders, not in the start.
 
 ===============================================================
 WHOMP'S FORTRESS
