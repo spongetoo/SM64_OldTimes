@@ -63,5 +63,6 @@ BOWSER IN THE SKY
 ENEMIES
 ===============================================================
 - Scuttlebug: Remove the fangs.
+- Piranha Plant: Replace the sound with a different one.
 
 Overall: 80% complete
