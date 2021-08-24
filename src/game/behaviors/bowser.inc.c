@@ -1143,8 +1143,8 @@ void bowser_spawn_collectable(void) {
     if (o->oBehParams2ndByte == BOWSER_BP_BITS) {
         gSecondCameraFocus = spawn_object(o, MODEL_STAR, bhvGrandStar);
     } else {
-        gSecondCameraFocus = spawn_object(o, MODEL_BOWSER_KEY, bhvBowserKey);
-        cur_obj_play_sound_2(SOUND_GENERAL2_BOWSER_KEY);
+        gSecondCameraFocus = spawn_object(o, MODEL_STAR, bhvSpawnedStar);
+        // cur_obj_play_sound_2(SOUND_GENERAL2_BOWSER_KEY);
     }
     gSecondCameraFocus->oAngleVelYaw = o->oAngleVelYaw;
 }
@@ -1214,11 +1214,14 @@ s32 bowser_dead_twirl_up(void) {
     } else {
         // Now scale down his Y value (and send Bowser up)
         o->header.gfx.scale[1] = o->header.gfx.scale[1] - 0.01;
-        o->oVelY = 20.0f;
+        o->oVelY = 5.0f;
         o->oGravity = 0.0f;
     }
     // At half Y scale value, he is high enough, so we are done
     if (o->header.gfx.scale[1] < 0.5) {
+		o->header.gfx.scale[0] = 0.0;
+        o->header.gfx.scale[1] = 0.0;
+        o->header.gfx.scale[2] = 0.0;
         ret = TRUE;
     }
     // Copy angle rotation to moving rotation
