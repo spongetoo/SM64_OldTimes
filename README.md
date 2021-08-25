@@ -8,7 +8,7 @@ started on: July 25, 2021
 credit:
 - me for creating hud and stuff
 - penguin for wf painting and enemies
-- dudaw for trees
+- ciaran kelly for inside castle bricks
 
 you'll need the clean, undumped japanese Super Mario 64 rom to make the ROM.
 
