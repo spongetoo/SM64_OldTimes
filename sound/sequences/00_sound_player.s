@@ -2127,11 +2127,7 @@ chan_setlayer 0, .layer_C7C
 chan_end
 
 .layer_C7C:
-layer_transpose -2
-layer_somethingon
-layer_portamento 0x85, 39, 255
-layer_note1 42, 0x1e, 110
-layer_note1 39, 0x41, 110
+layer_note1 39, 0x5a, 97//Yippee
 layer_end
 
 .sound_mario_uh:
