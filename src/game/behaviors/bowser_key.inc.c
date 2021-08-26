@@ -1,6 +1,6 @@
 // bowser_key.c.inc
 //! Need to fix collision. the collision fucks up for some reason.
-
+// Behavior By Mohammed.
 struct ObjectHitbox sBowserKeyHitbox = {
     /* interactType: */ INTERACT_STAR_OR_KEY,
     /* downOffset: */ 0,
