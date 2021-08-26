@@ -16,6 +16,7 @@
 #include "sound_init.h"
 #include "surface_terrains.h"
 #include "rumble_init.h"
+// Removed m->faceAngle[1] = (s16) m->intendedYaw;
 
 s32 check_common_idle_cancels(struct MarioState *m) {
     mario_drop_held_object(m);
@@ -44,7 +45,7 @@ s32 check_common_idle_cancels(struct MarioState *m) {
     }
 
     if (m->input & INPUT_NONZERO_ANALOG) {
-        m->faceAngle[1] = (s16) m->intendedYaw;
+       // m->faceAngle[1] = (s16) m->intendedYaw;
         return set_mario_action(m, ACT_WALKING, 0);
     }
 
@@ -87,7 +88,7 @@ s32 check_common_hold_idle_cancels(struct MarioState *m) {
     }
 
     if (m->input & INPUT_NONZERO_ANALOG) {
-        m->faceAngle[1] = (s16) m->intendedYaw;
+       // m->faceAngle[1] = (s16) m->intendedYaw;
         return set_mario_action(m, ACT_HOLD_WALKING, 0);
     }
 
