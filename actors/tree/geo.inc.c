@@ -1,6 +1,7 @@
 // 0x16000FE8
 const GeoLayout bubbly_tree_geo[] = {
-   GEO_CULLING_RADIUS(800),
+   //GEO_CULLING_RADIUS(800),
+   GEO_NODE_START(),
    GEO_OPEN_NODE(),
       GEO_DISPLAY_LIST(LAYER_ALPHA, tree_seg3_dl_0302FEE8),
    GEO_CLOSE_NODE(),
