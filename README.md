@@ -1,5 +1,5 @@
 # Super Mario 64 OldTimes project
-a 1996 b-roll styled hack or smth
+an e3 1996 demo styled hack or smth
 
 -- please don't take anything without credit --
 
