@@ -1143,7 +1143,7 @@ void bowser_spawn_collectable(void) {
     if (o->oBehParams2ndByte == BOWSER_BP_BITS) {
         gSecondCameraFocus = spawn_object(o, MODEL_STAR, bhvGrandStar);
     } else {
-        gSecondCameraFocus = spawn_object(o, MODEL_STAR, bhvSpawnedStar);
+        gSecondCameraFocus = spawn_object(o, MODEL_BOWSER_KEY, bhvBowserKey);
         // cur_obj_play_sound_2(SOUND_GENERAL2_BOWSER_KEY);
     }
     gSecondCameraFocus->oAngleVelYaw = o->oAngleVelYaw;
@@ -1273,7 +1273,7 @@ s32 bowser_dead_default_stage_ending(void) {
     // Hide Bowser and spawn collectable once done twirling
     } else if (bowser_dead_twirl_up()) {
         bowser_dead_hide();
-        spawn_triangle_break_particles(20, MODEL_YELLOW_COIN, 1.0f, 0);
+        obj_spawn_loot_yellow_coins(o, 20, 0.f);
         bowser_spawn_collectable();
         set_mario_npc_dialog(MARIO_DIALOG_STOP);
         ret = TRUE;
