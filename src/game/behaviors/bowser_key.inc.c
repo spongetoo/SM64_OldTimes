@@ -1,6 +1,5 @@
 // bowser_key.c.inc
-//! Need to fix collision. the collision fucks up for some reason.
-// Behavior By Mohammed.
+// Behavior By Mohammed, fixed by notvillager
 struct ObjectHitbox sBowserKeyHitbox = {
     /* interactType: */ INTERACT_STAR_OR_KEY,
     /* downOffset: */ 0,
@@ -21,6 +20,8 @@ void bhv_bowser_key_loop(void) {
         if (o->oTimer == 0)
        // spawn_sparkle_particles(3, 200, 80, -60);
        // spawn_object(o, MODEL_NONE, bhvSparkleSpawn);
+        cur_obj_update_floor_and_walls();
+        cur_obj_move_standard(78);
         if (o->oMoveFlags & OBJ_MOVE_ON_GROUND)
             o->oAction++;
         else if (o->oMoveFlags & OBJ_MOVE_LANDED)
