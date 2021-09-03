@@ -30,6 +30,7 @@ JOLLY ROGER BAY/DIRE, DIRE DOCKS
 ===============================================================
 - Music: Extend the 26th instrument to 3 seconds and remove the distortion.
 - For Dire, Dire Docks, remove the coin rings in the start.
+- Move Cannon Pos.
 
 ===============================================================
 BIG BOO'S HAUNT
@@ -58,5 +59,8 @@ ENEMIES
 ===============================================================
 - Scuttlebug: Remove the fangs.
 - Piranha Plant: Replace the sound with a different one.
-
+===============================================================
+STAR
+===============================================================
+- Import StarDust.
 Overall: 80% complete
