@@ -2,8 +2,7 @@
 const GeoLayout castle_geo_000F30[] = {
    GEO_NODE_START(),
    GEO_OPEN_NODE(),
-      GEO_DISPLAY_LIST(LAYER_OPAQUE, inside_castle_seg7_dl_07028FD0),
-      GEO_DISPLAY_LIST(LAYER_ALPHA, inside_castle_seg7_dl_07029578),
+      //GEO_DISPLAY_LIST(LAYER_ALPHA, inside_castle_seg7_dl_07029578),
       GEO_DISPLAY_LIST(LAYER_OPAQUE, inside_castle_seg7_dl_0702A650),
       GEO_DISPLAY_LIST(LAYER_TRANSPARENT_DECAL, inside_castle_seg7_dl_0702AA10),
       GEO_DISPLAY_LIST(LAYER_ALPHA, inside_castle_seg7_dl_0702AB20),
@@ -49,7 +48,15 @@ const GeoLayout castle_geo_000FD0[] = {
       GEO_DISPLAY_LIST(LAYER_OPAQUE, inside_castle_seg7_dl_07032FC0),
       GEO_DISPLAY_LIST(LAYER_ALPHA, inside_castle_seg7_dl_07033158),
       GEO_ASM(  0, geo_painting_update),
-      GEO_ASM(PAINTING_ID(0, 1), geo_painting_draw),
+      
+       GEO_ASM(PAINTING_ID(0, 1), geo_painting_draw),
+      
+      GEO_ASM(PAINTING_ID(2, 1), geo_painting_draw),
+  
+     GEO_ASM(PAINTING_ID(3, 1), geo_painting_draw),
+
+     GEO_ASM(PAINTING_ID(1, 1), geo_painting_draw),
+
    GEO_CLOSE_NODE(),
    GEO_RETURN(),
 };
@@ -61,8 +68,8 @@ const GeoLayout castle_geo_001000[] = {
       GEO_DISPLAY_LIST(LAYER_OPAQUE, inside_castle_seg7_dl_07034D88),
       GEO_DISPLAY_LIST(LAYER_ALPHA, inside_castle_seg7_dl_07035178),
       GEO_DISPLAY_LIST(LAYER_ALPHA, inside_castle_seg7_dl_07035288),
-      GEO_ASM(  0, geo_painting_update),
-      GEO_ASM(PAINTING_ID(2, 1), geo_painting_draw),
+ //     GEO_ASM(  0, geo_painting_update),
+   //   GEO_ASM(PAINTING_ID(2, 1), geo_painting_draw),
    GEO_CLOSE_NODE(),
    GEO_RETURN(),
 };
@@ -77,8 +84,8 @@ const GeoLayout castle_geo_001038[] = {
       GEO_DISPLAY_LIST(LAYER_TRANSPARENT, inside_castle_seg7_dl_07037DE8),
       GEO_DISPLAY_LIST(LAYER_TRANSPARENT, dl_castle_aquarium_light),
       GEO_DISPLAY_LIST(LAYER_ALPHA, inside_castle_seg7_dl_07038350),
-      GEO_ASM(  0, geo_painting_update),
-      GEO_ASM(PAINTING_ID(3, 1), geo_painting_draw),
+ //     GEO_ASM(  0, geo_painting_update),
+  //   GEO_ASM(PAINTING_ID(3, 1), geo_painting_draw),
    GEO_CLOSE_NODE(),
    GEO_RETURN(),
 };
@@ -91,8 +98,8 @@ const GeoLayout castle_geo_001088[] = {
       GEO_DISPLAY_LIST(LAYER_ALPHA, inside_castle_seg7_dl_0703A808),
       GEO_DISPLAY_LIST(LAYER_OPAQUE, inside_castle_seg7_dl_070234C0),
       GEO_DISPLAY_LIST(LAYER_OPAQUE, inside_castle_seg7_dl_07023520),
-      GEO_ASM(  0, geo_painting_update),
-      GEO_ASM(PAINTING_ID(1, 1), geo_painting_draw),
+   //   GEO_ASM(  0, geo_painting_update),
+  //   GEO_ASM(PAINTING_ID(1, 1), geo_painting_draw),
    GEO_CLOSE_NODE(),
    GEO_RETURN(),
 };
@@ -101,8 +108,7 @@ const GeoLayout castle_geo_001088[] = {
 const GeoLayout castle_geo_0010C8[] = {
    GEO_NODE_START(),
    GEO_OPEN_NODE(),
-      GEO_DISPLAY_LIST(LAYER_OPAQUE, inside_castle_seg7_dl_07028FD0),
-      GEO_DISPLAY_LIST(LAYER_ALPHA, inside_castle_seg7_dl_07029578),
+    //  GEO_DISPLAY_LIST(LAYER_ALPHA, inside_castle_seg7_dl_07029578),
       GEO_DISPLAY_LIST(LAYER_OPAQUE, inside_castle_seg7_dl_0702A650),
       GEO_DISPLAY_LIST(LAYER_TRANSPARENT_DECAL, inside_castle_seg7_dl_0702AA10),
       GEO_DISPLAY_LIST(LAYER_ALPHA, inside_castle_seg7_dl_0702AB20),
@@ -116,8 +122,7 @@ const GeoLayout castle_geo_0010C8[] = {
 const GeoLayout castle_geo_001110[] = {
    GEO_NODE_START(),
    GEO_OPEN_NODE(),
-      GEO_DISPLAY_LIST(LAYER_OPAQUE, inside_castle_seg7_dl_07028FD0),
-      GEO_DISPLAY_LIST(LAYER_ALPHA, inside_castle_seg7_dl_07029578),
+  //    GEO_DISPLAY_LIST(LAYER_ALPHA, inside_castle_seg7_dl_07029578),
       GEO_DISPLAY_LIST(LAYER_OPAQUE, inside_castle_seg7_dl_0702A650),
       GEO_DISPLAY_LIST(LAYER_TRANSPARENT_DECAL, inside_castle_seg7_dl_0702AA10),
       GEO_DISPLAY_LIST(LAYER_ALPHA, inside_castle_seg7_dl_0702AB20),
@@ -131,8 +136,7 @@ const GeoLayout castle_geo_001110[] = {
 const GeoLayout castle_geo_001158[] = {
    GEO_NODE_START(),
    GEO_OPEN_NODE(),
-      GEO_DISPLAY_LIST(LAYER_OPAQUE, inside_castle_seg7_dl_07028FD0),
-      GEO_DISPLAY_LIST(LAYER_ALPHA, inside_castle_seg7_dl_07029578),
+ //     GEO_DISPLAY_LIST(LAYER_ALPHA, inside_castle_seg7_dl_07029578),
       GEO_DISPLAY_LIST(LAYER_OPAQUE, inside_castle_seg7_dl_0702A650),
       GEO_DISPLAY_LIST(LAYER_TRANSPARENT_DECAL, inside_castle_seg7_dl_0702AA10),
       GEO_DISPLAY_LIST(LAYER_ALPHA, inside_castle_seg7_dl_0702AB20),
@@ -147,8 +151,7 @@ const GeoLayout castle_geo_001158[] = {
 const GeoLayout castle_geo_0011A8[] = {
    GEO_NODE_START(),
    GEO_OPEN_NODE(),
-      GEO_DISPLAY_LIST(LAYER_OPAQUE, inside_castle_seg7_dl_07028FD0),
-      GEO_DISPLAY_LIST(LAYER_ALPHA, inside_castle_seg7_dl_07029578),
+    //  GEO_DISPLAY_LIST(LAYER_ALPHA, inside_castle_seg7_dl_07029578),
       GEO_DISPLAY_LIST(LAYER_OPAQUE, inside_castle_seg7_dl_0702A650),
       GEO_DISPLAY_LIST(LAYER_TRANSPARENT_DECAL, inside_castle_seg7_dl_0702AA10),
       GEO_DISPLAY_LIST(LAYER_ALPHA, inside_castle_seg7_dl_0702AB20),
@@ -164,16 +167,15 @@ const GeoLayout castle_geo_0011A8[] = {
 const GeoLayout castle_geo_001200[] = {
    GEO_NODE_START(),
    GEO_OPEN_NODE(),
-      GEO_DISPLAY_LIST(LAYER_OPAQUE, inside_castle_seg7_dl_07028FD0),
-      GEO_DISPLAY_LIST(LAYER_ALPHA, inside_castle_seg7_dl_07029578),
+    //  GEO_DISPLAY_LIST(LAYER_ALPHA, inside_castle_seg7_dl_07029578),
       GEO_DISPLAY_LIST(LAYER_OPAQUE, inside_castle_seg7_dl_0702A650),
       GEO_DISPLAY_LIST(LAYER_TRANSPARENT_DECAL, inside_castle_seg7_dl_0702AA10),
       GEO_DISPLAY_LIST(LAYER_ALPHA, inside_castle_seg7_dl_0702AB20),
       GEO_ASM(  0, geo_exec_inside_castle_light),
       GEO_DISPLAY_LIST(LAYER_OPAQUE, inside_castle_seg7_dl_07032FC0),
       GEO_DISPLAY_LIST(LAYER_ALPHA, inside_castle_seg7_dl_07033158),
-      GEO_ASM(  0, geo_painting_update),
-      GEO_ASM(256, geo_painting_draw),
+ //     GEO_ASM(  0, geo_painting_update),
+  //    GEO_ASM(256, geo_painting_draw),
    GEO_CLOSE_NODE(),
    GEO_RETURN(),
 };
@@ -182,8 +184,7 @@ const GeoLayout castle_geo_001200[] = {
 const GeoLayout castle_geo_001260[] = {
    GEO_NODE_START(),
    GEO_OPEN_NODE(),
-      GEO_DISPLAY_LIST(LAYER_OPAQUE, inside_castle_seg7_dl_07028FD0),
-      GEO_DISPLAY_LIST(LAYER_ALPHA, inside_castle_seg7_dl_07029578),
+      //GEO_DISPLAY_LIST(LAYER_ALPHA, inside_castle_seg7_dl_07029578),
       GEO_DISPLAY_LIST(LAYER_OPAQUE, inside_castle_seg7_dl_0702A650),
       GEO_DISPLAY_LIST(LAYER_TRANSPARENT_DECAL, inside_castle_seg7_dl_0702AA10),
       GEO_DISPLAY_LIST(LAYER_ALPHA, inside_castle_seg7_dl_0702AB20),
@@ -191,8 +192,8 @@ const GeoLayout castle_geo_001260[] = {
       GEO_DISPLAY_LIST(LAYER_OPAQUE, inside_castle_seg7_dl_07034D88),
       GEO_DISPLAY_LIST(LAYER_ALPHA, inside_castle_seg7_dl_07035178),
       GEO_DISPLAY_LIST(LAYER_ALPHA, inside_castle_seg7_dl_07035288),
-      GEO_ASM(  0, geo_painting_update),
-      GEO_ASM(258, geo_painting_draw),
+    //  GEO_ASM(  0, geo_painting_update),
+   //   GEO_ASM(258, geo_painting_draw),
    GEO_CLOSE_NODE(),
    GEO_RETURN(),
 };
@@ -201,8 +202,7 @@ const GeoLayout castle_geo_001260[] = {
 const GeoLayout castle_geo_0012C8[] = {
    GEO_NODE_START(),
    GEO_OPEN_NODE(),
-      GEO_DISPLAY_LIST(LAYER_OPAQUE, inside_castle_seg7_dl_07028FD0),
-      GEO_DISPLAY_LIST(LAYER_ALPHA, inside_castle_seg7_dl_07029578),
+      //GEO_DISPLAY_LIST(LAYER_ALPHA, inside_castle_seg7_dl_07029578),
       GEO_DISPLAY_LIST(LAYER_OPAQUE, inside_castle_seg7_dl_0702A650),
       GEO_DISPLAY_LIST(LAYER_TRANSPARENT_DECAL, inside_castle_seg7_dl_0702AA10),
       GEO_DISPLAY_LIST(LAYER_ALPHA, inside_castle_seg7_dl_0702AB20),
@@ -213,8 +213,8 @@ const GeoLayout castle_geo_0012C8[] = {
       GEO_DISPLAY_LIST(LAYER_TRANSPARENT, inside_castle_seg7_dl_07037DE8),
       GEO_DISPLAY_LIST(LAYER_TRANSPARENT, dl_castle_aquarium_light),
       GEO_DISPLAY_LIST(LAYER_ALPHA, inside_castle_seg7_dl_07038350),
-      GEO_ASM(  0, geo_painting_update),
-      GEO_ASM(PAINTING_ID(3, 1), geo_painting_draw),
+  //    GEO_ASM(  0, geo_painting_update),
+
    GEO_CLOSE_NODE(),
    GEO_RETURN(),
 };
@@ -223,8 +223,7 @@ const GeoLayout castle_geo_0012C8[] = {
 const GeoLayout castle_geo_001348[] = {
    GEO_NODE_START(),
    GEO_OPEN_NODE(),
-      GEO_DISPLAY_LIST(LAYER_OPAQUE, inside_castle_seg7_dl_07028FD0),
-      GEO_DISPLAY_LIST(LAYER_ALPHA, inside_castle_seg7_dl_07029578),
+     // GEO_DISPLAY_LIST(LAYER_ALPHA, inside_castle_seg7_dl_07029578),
       GEO_DISPLAY_LIST(LAYER_OPAQUE, inside_castle_seg7_dl_0702A650),
       GEO_DISPLAY_LIST(LAYER_TRANSPARENT_DECAL, inside_castle_seg7_dl_0702AA10),
       GEO_DISPLAY_LIST(LAYER_ALPHA, inside_castle_seg7_dl_0702AB20),
@@ -233,8 +232,8 @@ const GeoLayout castle_geo_001348[] = {
       GEO_DISPLAY_LIST(LAYER_ALPHA, inside_castle_seg7_dl_0703A808),
       GEO_DISPLAY_LIST(LAYER_OPAQUE, inside_castle_seg7_dl_070234C0),
       GEO_DISPLAY_LIST(LAYER_OPAQUE, inside_castle_seg7_dl_07023520),
-      GEO_ASM(  0, geo_painting_update),
-      GEO_ASM(PAINTING_ID(1, 1), geo_painting_draw),
+     // GEO_ASM(  0, geo_painting_update),
+     // GEO_ASM(PAINTING_ID(1, 1), geo_painting_draw),
    GEO_CLOSE_NODE(),
    GEO_RETURN(),
 };
@@ -243,8 +242,7 @@ const GeoLayout castle_geo_001348[] = {
 const GeoLayout castle_geo_0013B8[] = {
    GEO_NODE_START(),
    GEO_OPEN_NODE(),
-      GEO_DISPLAY_LIST(LAYER_OPAQUE, inside_castle_seg7_dl_07028FD0),
-      GEO_DISPLAY_LIST(LAYER_ALPHA, inside_castle_seg7_dl_07029578),
+      //GEO_DISPLAY_LIST(LAYER_ALPHA, inside_castle_seg7_dl_07029578),
       GEO_DISPLAY_LIST(LAYER_OPAQUE, inside_castle_seg7_dl_0702A650),
       GEO_DISPLAY_LIST(LAYER_TRANSPARENT_DECAL, inside_castle_seg7_dl_0702AA10),
       GEO_DISPLAY_LIST(LAYER_ALPHA, inside_castle_seg7_dl_0702AB20),
@@ -271,7 +269,12 @@ const GeoLayout castle_geo_001400[] = {
          GEO_OPEN_NODE(),
             GEO_CAMERA(13, 0, 2000, 6000, 0, 0, 0, geo_camera_main),
             GEO_OPEN_NODE(),
-               GEO_SWITCH_CASE(17, geo_switch_area),
+            #include "levels/castle_inside/header.h"
+            GEO_DISPLAY_LIST(LAYER_ALPHA, inside_castle_seg7_dl_07028FD0__inside_castle_seg7_dl_07028FD0_Obj_mesh),
+            GEO_DISPLAY_LIST(LAYER_TRANSPARENT, inside_castle_seg7_dl_07028FD0__inside_castle_seg7_dl_07028FD0_Obj_mesh),
+            GEO_DISPLAY_LIST(LAYER_ALPHA, inside_castle_seg7_dl_07029578__inside_castle_seg7_dl_07029578_Obj_mesh),
+            GEO_DISPLAY_LIST(LAYER_TRANSPARENT, inside_castle_seg7_dl_07029578__inside_castle_seg7_dl_07029578_Obj_mesh),
+              // GEO_SWITCH_CASE(17, geo_switch_area),
                GEO_OPEN_NODE(),
                   GEO_BRANCH(1, castle_geo_000F30), // 0x0E000F30
                   GEO_BRANCH(1, castle_geo_000F70), // 0x0E000F70
