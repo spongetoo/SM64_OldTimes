@@ -1,5 +1,5 @@
 
-
+```
 MARIO 64  SUPER MARIO 64  SUPER MARIO 64  SUPER MARIO 64  SUPER MARIO 64  SUPER MARIO 64  SUPER MARIO 64  SUPER M
 ARIO 64  SUPER MARIO 64  SUPER MARIO 64  SUPER MARIO 64  SUPER MARIO 64  SUPER MARIO 64  SUPER MARIO 64  SUPER MA
 RIO 64  SUPER MARIO 64  SUPER MARIO 64  SUPER MARIO 64  SUPER MARIO 64  SUPER MARIO 64  SUPER MARIO 64  SUPER MAR
@@ -33,8 +33,8 @@ ER MARIO 64  SUP                                                                
 R MARIO 64  SUPE                       PROGRAMMER : MOHAMMED                                     MARIO 64  SUPER
  MARIO 64  SUPER                                    NOTVILLAGER                                  MARIO 64  SUPER 
 MARIO 64  SUPER                                                                                  ARIO 64  SUPER M
-ARIO 64  SUPER M                      CREDIT :                                                   ARIO 64  SUPER M 
-ARIO 64  SUPER M                                         1UP GUY FOR BRICKS                      ARIO 64  SUPER M 
+ARIO 64  SUPER M                      CREDIT :           ALITTLEBIT FOR BRICKS AND IC MODEL      ARIO 64  SUPER M 
+ARIO 64  SUPER M                                         1UP GUY FOR BRICKS (WAIT WHAT?)         ARIO 64  SUPER M 
 RIO 64  SUPER MA                                                                                 IO 64  SUPER MAR
 RIO 64  SUPER MA                                                                                 IO 64  SUPER MAR
 IO 64  SUPER MAR                                                                                 O 64  SUPER MARI
@@ -64,4 +64,4 @@ SUPER MARIO 64  SUPER MARIO 64  SUPER MARIO 64  SUPER MARIO 64  SUPER MARIO 64  
 UPER MARIO 64  SUPER MARIO 64  SUPER MARIO 64  SUPER MARIO 64  SUPER MARIO 64  SUPER MARIO 64  SUPER MARIO 64  SU
 PER MARIO 64  SUPER MARIO 64  SUPER MARIO 64  SUPER MARIO 64  SUPER MARIO 64  SUPER MARIO 64  SUPER MARIO 64  SUP
 ER MARIO 64  SUPER MARIO 64  SUPER MARIO 64  SUPER MARIO 64  SUPER MARIO 64  SUPER MARIO 64  SUPER MARIO 64  SUPE
-
+```
