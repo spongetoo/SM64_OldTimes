@@ -90,10 +90,10 @@ static const Gfx bob_seg7_dl_0700A848[] = {
     gsSP2Triangles( 6,  7,  8, 0x0,  6,  8,  9, 0x0),
     gsSP2Triangles(10, 11, 12, 0x0, 10, 12, 13, 0x0),
     gsSP1Triangle(14,  0,  2, 0x0),
-    gsSPVertex(bob_seg7_vertex_0700A740, 12, 0),
-    gsSP2Triangles( 0,  1,  2, 0x0,  1,  3,  2, 0x0),
-    gsSP2Triangles( 4,  5,  6, 0x0,  4,  7,  5, 0x0),
-    gsSP2Triangles( 8,  9, 10, 0x0,  8, 10, 11, 0x0),
+    //gsSPVertex(bob_seg7_vertex_0700A740, 12, 0),
+   // gsSP2Triangles( 0,  1,  2, 0x0,  1,  3,  2, 0x0),
+  //  gsSP2Triangles( 4,  5,  6, 0x0,  4,  7,  5, 0x0),
+   // gsSP2Triangles( 8,  9, 10, 0x0,  8, 10, 11, 0x0),
     gsSPEndDisplayList(),
 };
 
