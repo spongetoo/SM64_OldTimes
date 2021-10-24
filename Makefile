@@ -57,7 +57,7 @@ else ifeq ($(VERSION),sh)
   VERSION_JP_US  ?= false
 endif
 
-TARGET := sm64.$(VERSION)
+TARGET := oldtimes.$(VERSION)
 
 
 # GRUCODE - selects which RSP microcode to use.
@@ -127,9 +127,9 @@ endif
 COMPARE ?= 1
 $(eval $(call validate-option,COMPARE,0 1))
 
-TARGET_STRING := sm64.$(VERSION).$(GRUCODE)
+TARGET_STRING := oldtimes.$(VERSION).$(GRUCODE)
 # If non-default settings were chosen, disable COMPARE
-ifeq ($(filter $(TARGET_STRING), sm64.jp.f3d_old sm64.us.f3d_old sm64.eu.f3d_new sm64.sh.f3d_new),)
+ifeq ($(filter $(TARGET_STRING), oldtimes.jp.f3d_old oldtimes.us.f3d_old oldtimes.eu.f3d_new oldtimes.sh.f3d_new),)
   COMPARE := 0
 endif
 
@@ -736,7 +736,7 @@ $(BUILD_DIR)/libgoddard.a: $(GODDARD_O_FILES)
 # Link SM64 ELF file
 $(ELF): $(O_FILES) $(MIO0_OBJ_FILES) $(SEG_FILES) $(BUILD_DIR)/$(LD_SCRIPT) undefined_syms.txt $(BUILD_DIR)/libultra.a $(BUILD_DIR)/libgoddard.a
 	@$(PRINT) "$(GREEN)Linking ELF file:  $(BLUE)$@ $(NO_COL)\n"
-	$(V)$(LD) -L $(BUILD_DIR) -T undefined_syms.txt -T $(BUILD_DIR)/$(LD_SCRIPT) -Map $(BUILD_DIR)/sm64.$(VERSION).map --no-check-sections $(addprefix -R ,$(SEG_FILES)) -o $@ $(O_FILES) -lultra -lgoddard
+	$(V)$(LD) -L $(BUILD_DIR) -T undefined_syms.txt -T $(BUILD_DIR)/$(LD_SCRIPT) -Map $(BUILD_DIR)/oldtimes.$(VERSION).map --no-check-sections $(addprefix -R ,$(SEG_FILES)) -o $@ $(O_FILES) -lultra -lgoddard
 
 # Build ROM
 $(ROM): $(ELF)
