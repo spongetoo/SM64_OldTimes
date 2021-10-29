@@ -1,9 +1,4 @@
-Overall: 80% complete
-
-===============================================================
-INTRO & TITLE
-===============================================================
-- Import the title screen as seen on the N64 1996 Press Conference B-Roll.
+Overall: 83% complete
 
 ===============================================================
 CASTLE GROUNDS & INSIDE CASTLE
@@ -15,7 +10,7 @@ CASTLE GROUNDS & INSIDE CASTLE
 ===============================================================
 BOB-OMB BATTLEFIELD
 ===============================================================
-- Remove the fence in that Chain Chomp part.
+- Collision.
 - Instead of making 2 boulders/balls appear, make it 3 instead.
 - Also, place the coin ring with Bob-omb near the boulders, not in the start.
 - Chain Chomp should bark only 1 time, also, the sound was pitched down a little bit.
@@ -59,8 +54,5 @@ ENEMIES
 ===============================================================
 - Scuttlebug: Remove the fangs.
 - Piranha Plant: Replace the sound with a different one.
-===============================================================
-STAR
-===============================================================
-- Import StarDust.
-Overall: 80% complete
+
+Overall: 83% complete
