@@ -13,7 +13,7 @@
 #include "prevent_bss_reordering.h"
 
 // frame counts for the zoom in, hold, and zoom out of title model
-#define INTRO_STEPS_ZOOM_IN 20
+#define INTRO_STEPS_ZOOM_IN 10
 #define INTRO_STEPS_HOLD_1 75
 #define INTRO_STEPS_ZOOM_OUT 91
 
@@ -49,6 +49,7 @@ Gfx *geo_intro_super_mario_64_logo(s32 state, struct GraphNode *node, UNUSED voi
     f32 scaleX;
     f32 scaleY;
     f32 scaleZ;
+f32 introScaleMult = 0.10f;
 
     if (state != 1) {
         sIntroFrameCounter = 0;
@@ -60,10 +61,9 @@ Gfx *geo_intro_super_mario_64_logo(s32 state, struct GraphNode *node, UNUSED voi
 
         // determine scale based on the frame counter
         if (sIntroFrameCounter >= 0 && sIntroFrameCounter < INTRO_STEPS_ZOOM_IN) {
-            // zooming in
-            scaleX = scaleTable1[sIntroFrameCounter * 3];
-            scaleY = scaleTable1[sIntroFrameCounter * 3 + 1];
-            scaleZ = scaleTable1[sIntroFrameCounter * 3 + 2];
+            scaleX = sIntroFrameCounter * introScaleMult;
+            scaleY = sIntroFrameCounter * introScaleMult;
+            scaleZ = sIntroFrameCounter * introScaleMult;
         } else if (sIntroFrameCounter >= INTRO_STEPS_ZOOM_IN && sIntroFrameCounter < INTRO_STEPS_HOLD_1) {
             // holding
             scaleX = 1.0f;
@@ -83,7 +83,7 @@ Gfx *geo_intro_super_mario_64_logo(s32 state, struct GraphNode *node, UNUSED voi
         guScale(scaleMat, scaleX, scaleY, scaleZ);
 
         gSPMatrix(dlIter++, scaleMat, G_MTX_MODELVIEW | G_MTX_MUL | G_MTX_PUSH);
-        gSPDisplayList(dlIter++, &intro_seg7_dl_0700B3A0);  // draw model
+        gSPDisplayList(dlIter++, &title_Logo_mesh);  // draw model
         gSPPopMatrix(dlIter++, G_MTX_MODELVIEW);
         gSPEndDisplayList(dlIter);
 
@@ -348,7 +348,7 @@ u16 *intro_sample_frame_buffer(s32 imageW, s32 imageH, s32 sampleW, s32 sampleH)
     s32 xOffset = 120;
     s32 yOffset = 80;
 
-    fb = sFrameBuffers[sRenderingFrameBuffer];
+    fb = sFrameBuffers[frameBufferIndex];
     image = alloc_display_list(imageW * imageH * sizeof(u16));
 
     if (image == NULL) {
@@ -439,10 +439,6 @@ Gfx *geo_intro_rumble_pak_graphic(s32 state, struct GraphNode *node, UNUSED void
     Gfx *dl;
     s32 introContext;
     s8 backgroundTileSix;
-#ifdef AVOID_UB
-    dl = NULL;
-    backgroundTileSix = 0;
-#endif
 
     if (state != 1) {
         dl = NULL;
@@ -469,4 +465,3 @@ Gfx *geo_intro_rumble_pak_graphic(s32 state, struct GraphNode *node, UNUSED void
 }
 
 #endif
-
